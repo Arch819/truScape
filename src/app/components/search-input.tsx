@@ -21,7 +21,14 @@ export default function SearchInput({
         type="button"
         className="absolute top-0 right-0 p-3"
         onClick={onSearchClick}
-      ></button>
+      >
+        <Image
+          width={20}
+          height={20}
+          src="/icons/magnifying-glass.svg"
+          alt="search icon"
+        />
+      </button>
     </div>
   );
 }

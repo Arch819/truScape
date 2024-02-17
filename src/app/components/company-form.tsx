@@ -3,6 +3,7 @@
 import { Form, Formik } from 'formik';
 import LogoUploader from './logo-uploader';
 import InputField from './input-field';
+import Button from './button';
 
 export type CompanyFieldValues = {
   name: string;
@@ -51,6 +52,7 @@ export default function CompanyForm({ onSubmit }: CompanyFormProps) {
             />
           </div>
         </div>
+        <Button type="submit">Add company</Button>
       </Form>
     </Formik>
   );

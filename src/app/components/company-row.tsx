@@ -27,7 +27,7 @@ export default function CompanyRow({
   return (
     <tr className="h-14 text-center text-gray-900 bg-white">
       <td className="text-xs font-medium text-blue-700 rounded-l border-l-4 border-blue-700">
-        {company}
+        {category}
       </td>
       <td>
         <Link href={`/companies/${id}`}>{company}</Link>
