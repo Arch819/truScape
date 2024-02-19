@@ -1,5 +1,5 @@
-import clsx from 'clsx';
 import { ReactNode } from 'react';
+import clsx from 'clsx';
 
 export interface SummaryTableCellProps {
   align?: 'left' | 'center' | 'right';
@@ -7,7 +7,7 @@ export interface SummaryTableCellProps {
 }
 
 export default function SummaryTableCell({
-  align,
+  align = 'left',
   children,
 }: SummaryTableCellProps) {
   return (
